@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0B35D89A-AC2F-3AEA-A2BF-001073EBB215}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>WhisperAIAgent</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programming Projects\WhisperAIAgent\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WhisperAIAgent.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WhisperAIAgent</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programming Projects\WhisperAIAgent\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WhisperAIAgent.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WhisperAIAgent</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programming Projects\WhisperAIAgent\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WhisperAIAgent.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WhisperAIAgent</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programming Projects\WhisperAIAgent\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WhisperAIAgent.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WhisperAIAgent</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Debug\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-cpu.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-cpu.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-base.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/build/bin/Release/whisper.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/whisper.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/models/ggml-base.bin" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.bin"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/models/en_US-kathleen-low.onnx" "D:/Programming Projects/WhisperAIAgent/build/Release/en_US-kathleen-low.onnx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/llama.cpp/build/bin/Release/llama.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/llama.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/SDL2.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/SDL2.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>include\whisper.cpp\src\Debug\whisper.lib;include\llama.cpp\src\Debug\llama.lib;include\espeak-ng\src\libespeak-ng\Debug\espeak-ng.lib;include\whisper.cpp\ggml\src\Debug\ggml.lib;SDL2.lib;SDL2main.lib;ole32.lib;uuid.lib;onnxruntime.lib;include\whisper.cpp\ggml\src\Debug\ggml-cpu.lib;include\whisper.cpp\ggml\src\Debug\ggml-base.lib;include\espeak-ng\src\ucd-tools\Debug\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib;D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib/$(Configuration);D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64;D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/Debug/WhisperAIAgent.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/Debug/WhisperAIAgent.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-cpu.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-cpu.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-base.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/build/bin/Release/whisper.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/whisper.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/models/ggml-base.bin" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.bin"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/models/en_US-kathleen-low.onnx" "D:/Programming Projects/WhisperAIAgent/build/Release/en_US-kathleen-low.onnx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/llama.cpp/build/bin/Release/llama.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/llama.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/SDL2.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/SDL2.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>include\whisper.cpp\src\Release\whisper.lib;include\llama.cpp\src\Release\llama.lib;include\espeak-ng\src\libespeak-ng\Release\espeak-ng.lib;include\whisper.cpp\ggml\src\Release\ggml.lib;SDL2.lib;SDL2main.lib;ole32.lib;uuid.lib;onnxruntime.lib;include\whisper.cpp\ggml\src\Release\ggml-cpu.lib;include\whisper.cpp\ggml\src\Release\ggml-base.lib;include\espeak-ng\src\ucd-tools\Release\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib;D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib/$(Configuration);D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64;D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/Release/WhisperAIAgent.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/Release/WhisperAIAgent.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\MinSizeRel\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-cpu.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-cpu.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-base.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/build/bin/Release/whisper.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/whisper.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/models/ggml-base.bin" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.bin"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/models/en_US-kathleen-low.onnx" "D:/Programming Projects/WhisperAIAgent/build/Release/en_US-kathleen-low.onnx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/llama.cpp/build/bin/Release/llama.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/llama.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/SDL2.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/SDL2.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>include\whisper.cpp\src\MinSizeRel\whisper.lib;include\llama.cpp\src\MinSizeRel\llama.lib;include\espeak-ng\src\libespeak-ng\MinSizeRel\espeak-ng.lib;include\whisper.cpp\ggml\src\MinSizeRel\ggml.lib;SDL2.lib;SDL2main.lib;ole32.lib;uuid.lib;onnxruntime.lib;include\whisper.cpp\ggml\src\MinSizeRel\ggml-cpu.lib;include\whisper.cpp\ggml\src\MinSizeRel\ggml-base.lib;include\espeak-ng\src\ucd-tools\MinSizeRel\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib;D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib/$(Configuration);D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64;D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/MinSizeRel/WhisperAIAgent.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/MinSizeRel/WhisperAIAgent.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\RelWithDebInfo\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AMD64_;_M_AMD64;GGML_USE_CPU;GGML_SHARED;GGML_BACKEND_SHARED;LLAMA_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\src;D:\Programming Projects\WhisperAIAgent\include\SDL2\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\piper\src\cpp;D:\Programming Projects\WhisperAIAgent\include\piper\build\p\src\piper_phonemize_external\src;D:\Programming Projects\WhisperAIAgent\include\piper\build\pi\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\.;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\..\include;D:\Programming Projects\WhisperAIAgent\include\llama.cpp\src\..\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-cpu.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-cpu.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml-base.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/ggml/build/bin/Release/ggml.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/build/bin/Release/whisper.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/whisper.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/whisper.cpp/models/ggml-base.bin" "D:/Programming Projects/WhisperAIAgent/build/Release/ggml-base.bin"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/models/en_US-kathleen-low.onnx" "D:/Programming Projects/WhisperAIAgent/build/Release/en_US-kathleen-low.onnx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/llama.cpp/build/bin/Release/llama.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/llama.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/SDL2.dll" "D:/Programming Projects/WhisperAIAgent/build/Release/SDL2.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>include\whisper.cpp\src\RelWithDebInfo\whisper.lib;include\llama.cpp\src\RelWithDebInfo\llama.lib;include\espeak-ng\src\libespeak-ng\RelWithDebInfo\espeak-ng.lib;include\whisper.cpp\ggml\src\RelWithDebInfo\ggml.lib;SDL2.lib;SDL2main.lib;ole32.lib;uuid.lib;onnxruntime.lib;include\whisper.cpp\ggml\src\RelWithDebInfo\ggml-cpu.lib;include\whisper.cpp\ggml\src\RelWithDebInfo\ggml-base.lib;include\espeak-ng\src\ucd-tools\RelWithDebInfo\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib;D:/Programming Projects/WhisperAIAgent/include/piper/build/pi/lib/$(Configuration);D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64;D:/Programming Projects/WhisperAIAgent/include/SDL2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/RelWithDebInfo/WhisperAIAgent.lib</ImportLibrary>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/RelWithDebInfo/WhisperAIAgent.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeCXXCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeRCCompiler.cmake;D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\4.2.0-rc1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programming Projects\WhisperAIAgent\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\piper_tts.cpp" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\src\main.cpp" />
+    <ClInclude Include="..\src\piper_tts.h" />
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\src\parser.h" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\src\parser.cpp" />
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\src\command.h" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\src\command.cpp" />
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\src\llama_simple.h" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\src\llama_simple.cpp" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common.cpp" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common-sdl.cpp" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common-ggml.cpp" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\grammar-parser.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\ZERO_CHECK.vcxproj">
+      <Project>{92F790B5-15B4-3997-8154-807F03EB5730}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.vcxproj">
+      <Project>{4DB25081-4B02-3A1E-A667-E833B769E79C}</Project>
+      <Name>espeak-ng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml.vcxproj">
+      <Project>{89048076-F6B5-3580-BF6A-583A88103DB5}</Project>
+      <Name>ggml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-base.vcxproj">
+      <Project>{7DB4D5EF-A025-3650-B26B-CEC19C187481}</Project>
+      <Name>ggml-base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.vcxproj">
+      <Project>{4D748744-71E4-35DB-B9AA-12B54B135023}</Project>
+      <Name>ggml-cpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\llama.cpp\src\llama.vcxproj">
+      <Project>{2E400D8C-7CDE-310B-8F95-278D51A7BDBC}</Project>
+      <Name>llama</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\ucd-tools\ucd.vcxproj">
+      <Project>{CC6110DF-3D6C-30CC-8D74-764C34D4DDAF}</Project>
+      <Name>ucd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\src\whisper.vcxproj">
+      <Project>{EED35B9F-2D21-3B3B-8AF4-DFCC09DDCEB4}</Project>
+      <Name>whisper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

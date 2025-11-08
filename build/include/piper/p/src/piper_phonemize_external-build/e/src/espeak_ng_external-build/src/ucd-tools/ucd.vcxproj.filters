@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\case.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\categories.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\ctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\proplist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\scripts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\src\tostring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\src\ucd-tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E515DAB9-BABC-307B-92DB-D914238FF6DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

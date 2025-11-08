@@ -1,0 +1,9 @@
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/CMakeFiles/spdlog.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/CMakeFiles/PACKAGE.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/CMakeFiles/INSTALL.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/CMakeFiles/ALL_BUILD.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/CMakeFiles/ZERO_CHECK.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/example/CMakeFiles/example.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/example/CMakeFiles/PACKAGE.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/example/CMakeFiles/INSTALL.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/s/src/spdlog_external-build/example/CMakeFiles/ALL_BUILD.dir

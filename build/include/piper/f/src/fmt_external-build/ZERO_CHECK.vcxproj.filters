@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external-build\CMakeFiles\a35ab58238848775b36b06568ccf8e89\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A4A303C-4727-3197-B770-D3AE185D0EA8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

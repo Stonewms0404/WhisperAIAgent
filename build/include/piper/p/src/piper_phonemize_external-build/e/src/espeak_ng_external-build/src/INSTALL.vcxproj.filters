@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\CMakeFiles\7bc2ca17a36edfdee5f65cdc1482a119\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2D584A08-CC98-3F7A-943B-2326FDC7D465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,150 @@
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/tmp/sonic-git-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/tmp/sonic-git-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-UPDATE.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/tmp/sonic-git-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\F361A6D406CFA0B04A47626A544CFA49\SONIC-GIT-POPULATE-TEST.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\C9DB732FBB5D7594272DADCC03A2684D\SONIC-GIT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/Debug/sonic-git-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/sonic-git-populate-prefix/src/sonic-git-populate-stamp/Debug/sonic-git-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKEFILES\EBDF4B6C88C8381A1237FA9994725236\SONIC-GIT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\_DEPS\SONIC-GIT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild" "-BD:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

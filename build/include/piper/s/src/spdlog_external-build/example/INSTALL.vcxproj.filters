@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\s\src\spdlog_external-build\CMakeFiles\32787be16f9d34bff8d079cfe17819a9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EFF56914-572E-310C-BD9F-77563C79EB38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

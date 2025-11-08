@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\src\os.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\format-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\ranges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\include\fmt\xchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\README.rst" />
+    <None Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\f\src\fmt_external\ChangeLog.rst" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B7B38375-8D11-30F2-A828-2BDCB7DDDF83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E36A24A-307B-361C-806A-D89EFE68C8A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

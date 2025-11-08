@@ -1,0 +1,12 @@
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/piper_phonemize.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/espeak_ng_external.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/piper_phonemize_exe.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/Experimental.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/Nightly.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/Continuous.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/NightlyMemoryCheck.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/test_piper_phonemize.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/RUN_TESTS.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/INSTALL.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/ALL_BUILD.dir
+D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.2/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Templates/CTestScript.cmake.in
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/CMakeLists.txt
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/cmake/config.cmake
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/cmake/data.cmake
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/cmake/deps.cmake
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/cmake/docs.cmake
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/cmake/package.cmake
+D:/Programming Projects/WhisperAIAgent/include/espeak-ng/espeak-ng.pc.in

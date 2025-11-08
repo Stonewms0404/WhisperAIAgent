@@ -1,0 +1,8 @@
+D:\Programming Projects\WhisperAIAgent\src\main.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\main.obj
+D:\Programming Projects\WhisperAIAgent\src\parser.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\parser.obj
+D:\Programming Projects\WhisperAIAgent\src\command.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\command.obj
+D:\Programming Projects\WhisperAIAgent\src\llama_simple.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\llama_simple.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\common.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common-sdl.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\common-sdl.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\common-ggml.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\common-ggml.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\examples\grammar-parser.cpp;D:\Programming Projects\WhisperAIAgent\build\WhisperAIAgent.dir\Release\grammar-parser.obj

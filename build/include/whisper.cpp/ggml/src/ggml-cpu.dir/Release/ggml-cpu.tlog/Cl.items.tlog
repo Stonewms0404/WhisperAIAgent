@@ -1,0 +1,14 @@
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\ggml-cpu.c;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.c.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\ggml-cpu.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.cpp.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\repack.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\repack.cpp.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\hbm.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\hbm.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\quants.c;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\quants.c.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\traits.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\traits.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\amx\amx.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\amx.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\amx\mmq.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\mmq.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\binary-ops.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\binary-ops.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\unary-ops.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\unary-ops.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\vec.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\vec.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\ops.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ops.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\arch\x86\quants.c;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\quants.c.obj
+D:\Programming Projects\WhisperAIAgent\include\whisper.cpp\ggml\src\ggml-cpu\arch\x86\repack.cpp;D:\Programming Projects\WhisperAIAgent\build\include\whisper.cpp\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\repack.cpp.obj

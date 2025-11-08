@@ -1,0 +1,130 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/whisper_cpp/ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 325,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"include/whisper_cpp/ggml/src/ggml.lib"
+			],
+			"targetId" : "ggml::@c0fb209921c3f1957ee5",
+			"targetIndex" : 1,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ggml.dll"
+			],
+			"targetId" : "ggml::@c0fb209921c3f1957ee5",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/whisper_cpp/ggml/include/ggml.h",
+				"include/whisper_cpp/ggml/include/ggml-cpu.h",
+				"include/whisper_cpp/ggml/include/ggml-alloc.h",
+				"include/whisper_cpp/ggml/include/ggml-backend.h",
+				"include/whisper_cpp/ggml/include/ggml-blas.h",
+				"include/whisper_cpp/ggml/include/ggml-cann.h",
+				"include/whisper_cpp/ggml/include/ggml-cpp.h",
+				"include/whisper_cpp/ggml/include/ggml-cuda.h",
+				"include/whisper_cpp/ggml/include/ggml-opt.h",
+				"include/whisper_cpp/ggml/include/ggml-metal.h",
+				"include/whisper_cpp/ggml/include/ggml-rpc.h",
+				"include/whisper_cpp/ggml/include/ggml-sycl.h",
+				"include/whisper_cpp/ggml/include/ggml-vulkan.h",
+				"include/whisper_cpp/ggml/include/ggml-webgpu.h",
+				"include/whisper_cpp/ggml/include/gguf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"include/whisper_cpp/ggml/src/ggml-base.lib"
+			],
+			"targetId" : "ggml-base::@c0fb209921c3f1957ee5",
+			"targetIndex" : 2,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/ggml-base.dll"
+			],
+			"targetId" : "ggml-base::@c0fb209921c3f1957ee5",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ggml",
+			"paths" : 
+			[
+				"out/build/x64-Debug/include/whisper_cpp/ggml/ggml-config.cmake",
+				"out/build/x64-Debug/include/whisper_cpp/ggml/ggml-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/whisper_cpp/ggml",
+		"source" : "include/whisper_cpp/ggml"
+	}
+}

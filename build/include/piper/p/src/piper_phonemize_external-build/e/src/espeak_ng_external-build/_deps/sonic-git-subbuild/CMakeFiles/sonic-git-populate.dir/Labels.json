@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/dfca9992d8108d4c6d78ac29ef124ceb/sonic-git-populate.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/a2ad742aafc6bf03838b5c3e4c2fb980/sonic-git-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-build.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-download.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-install.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-test.rule"
+		},
+		{
+			"file" : "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-subbuild/CMakeFiles/f3fab3639b9485befdc53d194be5b7f8/sonic-git-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sonic-git-populate"
+		],
+		"name" : "sonic-git-populate"
+	}
+}

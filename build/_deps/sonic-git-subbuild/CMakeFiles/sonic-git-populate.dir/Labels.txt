@@ -1,0 +1,14 @@
+# Target labels
+ sonic-git-populate
+# Source files and their labels
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/sonic-git-populate
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/ebdf4b6c88c8381a1237fa9994725236/sonic-git-populate.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/c9db732fbb5d7594272dadcc03a2684d/sonic-git-populate-complete.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-build.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-configure.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-download.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-install.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-mkdir.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-patch.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-test.rule
+D:/Programming Projects/WhisperAIAgent/build/_deps/sonic-git-subbuild/CMakeFiles/f361a6d406cfa0b04a47626a544cfa49/sonic-git-populate-update.rule

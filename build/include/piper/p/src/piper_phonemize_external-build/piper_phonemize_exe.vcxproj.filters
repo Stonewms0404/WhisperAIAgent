@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external\src\phoneme_ids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{49EE860D-9970-3398-91E8-DB7CA4ECF8B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

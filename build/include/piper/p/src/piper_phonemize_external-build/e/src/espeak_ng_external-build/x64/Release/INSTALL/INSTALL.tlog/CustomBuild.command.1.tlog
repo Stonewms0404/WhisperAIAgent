@@ -1,0 +1,10 @@
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\389F38FF6CD89E1EB63443DA00EB54DE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\S\SRC\SPDLOG_EXTERNAL-BUILD\CMAKEFILES\00252FBF4C77AA7C426C4F6AAE723525\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\_deps\sonic-git-src\sonic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E515DAB9-BABC-307B-92DB-D914238FF6DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

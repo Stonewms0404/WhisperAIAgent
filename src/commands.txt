@@ -1,0 +1,19 @@
+enable
+disable
+quit
+stop
+music
+play
+resume
+pause
+next
+skip
+previous
+replay
+mute
+unmute
+volume up
+volume down
+volume
+ask
+reply

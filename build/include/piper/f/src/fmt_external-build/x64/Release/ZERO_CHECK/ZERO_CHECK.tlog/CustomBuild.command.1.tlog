@@ -1,0 +1,10 @@
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\F\SRC\FMT_EXTERNAL-BUILD\CMAKEFILES\A35AB58238848775B36B06568CCF8E89\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent/build/include/piper/f/src/fmt_external" "-BD:/Programming Projects/WhisperAIAgent/build/include/piper/f/src/fmt_external-build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Programming Projects/WhisperAIAgent/build/include/piper/f/src/fmt_external-build/FMT.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

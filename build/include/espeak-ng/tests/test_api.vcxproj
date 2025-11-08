@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C6AEE660-3E84-39C2-81EB-BDA6A3F2499A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>test_api</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_api.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_api.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_api.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_api.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\test_api.dir\Debug\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\speechPlayer\Debug\speechPlayer.lib;..\src\ucd-tools\Debug\ucd.lib;..\src\ucd-tools\Debug\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/Debug/test_api.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/Debug/test_api.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\test_api.dir\Release\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\speechPlayer\Release\speechPlayer.lib;..\src\ucd-tools\Release\ucd.lib;..\src\ucd-tools\Release\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/Release/test_api.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/Release/test_api.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\test_api.dir\MinSizeRel\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\speechPlayer\MinSizeRel\speechPlayer.lib;..\src\ucd-tools\MinSizeRel\ucd.lib;..\src\ucd-tools\MinSizeRel\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/MinSizeRel/test_api.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/MinSizeRel/test_api.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\test_api.dir\RelWithDebInfo\</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBESPEAK_NG_EXPORT=1;_AMD64_;_M_AMD64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\libespeak-ng\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\include\compat;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\ucd-tools\src\include;D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\include;D:\Programming Projects\WhisperAIAgent\include\espeak-ng\src\speechPlayer\include;D:\Programming Projects\WhisperAIAgent\build\_deps\sonic-git-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\speechPlayer\RelWithDebInfo\speechPlayer.lib;..\src\ucd-tools\RelWithDebInfo\ucd.lib;..\src\ucd-tools\RelWithDebInfo\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/RelWithDebInfo/test_api.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/RelWithDebInfo/test_api.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programming Projects\WhisperAIAgent\include\espeak-ng\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/include/espeak-ng/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/include/espeak-ng/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/include/espeak-ng/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Programming Projects/WhisperAIAgent/include/espeak-ng/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent" "-BD:/Programming Projects/WhisperAIAgent/build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/include/espeak-ng/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\common.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\mnemonics.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\error.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\ieee80.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\compiledata.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\compiledict.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\dictionary.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\encoding.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\intonation.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\langopts.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\numbers.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\phoneme.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\phonemelist.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\readclause.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\setlengths.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\soundicon.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\spect.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\ssml.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\synthdata.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\synthesize.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\tr_languages.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\translate.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\translateword.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\voices.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\wavegen.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\speech.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\espeak_api.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\klatt.obj" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.dir\$(Configuration)\sPlayer.obj" />
+    <ClCompile Include="D:\Programming Projects\WhisperAIAgent\include\espeak-ng\tests\api.c" />
+    <Object Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\sonic.dir\$(Configuration)\sonic.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\ZERO_CHECK.vcxproj">
+      <Project>{92F790B5-15B4-3997-8154-807F03EB5730}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\data.vcxproj">
+      <Project>{93590AED-8204-3815-9EB1-4BC8D3FAD044}</Project>
+      <Name>data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\libespeak-ng\espeak-ng.vcxproj">
+      <Project>{4DB25081-4B02-3A1E-A667-E833B769E79C}</Project>
+      <Name>espeak-ng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\sonic.vcxproj">
+      <Project>{9CDFE634-EE7B-304C-958E-180196511B86}</Project>
+      <Name>sonic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\speechPlayer\speechPlayer.vcxproj">
+      <Project>{C28E14E5-E055-34DA-8CB0-52E63BD46D11}</Project>
+      <Name>speechPlayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\ucd-tools\ucd.vcxproj">
+      <Project>{CC6110DF-3D6C-30CC-8D74-764C34D4DDAF}</Project>
+      <Name>ucd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

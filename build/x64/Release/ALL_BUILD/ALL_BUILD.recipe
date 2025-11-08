@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\Release\espeak-ng.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\bin\Release\ggml-base.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\bin\Release\ggml-cpu.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\bin\Release\ggml.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\bin\Release\llama.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\bin\Release\whisper.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\Release\WhisperAIAgent.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\src\Release\espeak-ng.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\x64\Release\data</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Release\test_api.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Release\test_encoding.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Release\test_ieee80.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\tests\Release\test_readclause.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Programming Projects\WhisperAIAgent\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

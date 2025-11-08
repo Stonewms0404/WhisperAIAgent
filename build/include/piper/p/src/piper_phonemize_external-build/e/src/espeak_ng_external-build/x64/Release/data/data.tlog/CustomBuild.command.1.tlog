@@ -1,0 +1,1854 @@
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\INTONATIONS.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\phsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile-intonations
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PHONDATA.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external\phsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile-phonemes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AF_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/af_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/af_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/af_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=af
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AM_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/am_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/am_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/am_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=am
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/an_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/an_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=an
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ar_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ar_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ar_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ar_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ar
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AS_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/as_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/as_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=as
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\AZ_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/az_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/az_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/az_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=az
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ba_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ba_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ba
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/be_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/be_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=be
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BG_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bg_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bg_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bg_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bg_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=bg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bn_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=bn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BPY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bpy_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bpy_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=bpy
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\BS_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bs_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bs_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/bs_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=bs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ca_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ca_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ca_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ca
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CHR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/chr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/chr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=chr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CMN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cmn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cmn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/extra/cmn_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cmn_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=cmn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CS_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cs_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cs_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cs_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=cs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CV_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cv_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cv_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=cv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\CY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cy_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cy_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/cy_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=cy
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\DA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/da_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/da_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/da_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=da
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\DE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/de_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/de_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/de_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=de
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\EL_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/el_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/el_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/el_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=el
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\EN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/en_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/en_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/en_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=en
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\EO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/eo_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/eo_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=eo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\ES_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/es_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/es_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/es_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=es
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\ET_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/et_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/et_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/et_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=et
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\EU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/eu_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/eu_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/eu_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=eu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\FA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fa_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fa_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fa_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=fa
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\FI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fi_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fi_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fi_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=fi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\FR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/fr_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=fr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\GA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ga_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ga_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ga_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ga
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\GD_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gd_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gd_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gd_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=gd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\GN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=gn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\GRC_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/grc_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/grc_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=grc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\GU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gu_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gu_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/gu_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=gu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HAK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hak_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hak_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=hak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HAW_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/haw_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/haw_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=haw
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/he_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/he_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/he_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=he
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hi_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hi_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hi_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=hi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hr_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=hr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ht_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ht_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ht
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hu_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hu_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hu_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=hu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\HY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hy_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hy_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/hy_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=hy
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\IA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ia_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ia_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ia_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ia
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\ID_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/id_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/id_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/id_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=id
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\IO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/io_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/io_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=io
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\IS_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/is_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/is_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/is_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=is
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\IT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/it_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/it_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/it_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/it_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=it
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\JA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ja_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ja_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ja_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ja
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\JBO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/jbo_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/jbo_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=jbo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ka_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ka_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ka_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ka
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kk_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kk_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kk_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=kk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KL_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kl_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kl_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=kl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kn_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=kn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ko_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ko_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ko_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ko
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KOK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kok_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/kok_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=kok
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ku_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ku_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ku
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\KY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ky_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ky_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ky_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ky
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\LA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/la_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/la_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=la
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\LB_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lb_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lb_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lb_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=lb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\LFN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lfn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lfn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=lfn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\LT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lt_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lt_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lt_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=lt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\LV_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lv_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lv_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/lv_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=lv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mi_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mi_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=mi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mk_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mk_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mk_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=mk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\ML_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ml_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ml_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ml_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mr_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=mr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MS_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ms_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ms_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ms_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ms
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mt_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mt_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=mt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MTO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mto_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/mto_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=mto
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\MY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/my_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/my_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/my_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=my
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\NCI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nci_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nci_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=nci
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\NE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ne_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ne_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ne_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ne
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\NL_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nl_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nl_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nl_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=nl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\NO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/no_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/no_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=no
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\NOG_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nog_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/nog_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=nog
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\OM_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/om_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/om_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=om
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\OR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/or_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/or_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/or_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=or
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pa_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pa_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pa_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=pa
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PAP_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pap_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pap_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=pap
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PIQD_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/piqd_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/piqd_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=piqd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PL_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pl_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pl_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pl_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=pl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pt_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pt_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/pt_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=pt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\PY_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/py_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/py_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\QDB_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qdb_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qdb_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=qdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\QU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qu_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qu_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=qu
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\QUC_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/quc_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/quc_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/quc_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=quc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\QYA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qya_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/qya_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=qya
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\RO_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ro_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ro_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ro_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ro
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\RU_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ru_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ru_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/extra/ru_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ru_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ru
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SD_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sd_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sd_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sd_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SHN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/shn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/shn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=shn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/si_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/si_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/si_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=si
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SJN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sjn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sjn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sjn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sk_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sk_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sk_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SL_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sl_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sl_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sl_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SMJ_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/smj_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/smj_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=smj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SQ_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sq_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sq_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sq_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sq
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sr_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SV_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sv_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sv_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sv_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\SW_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sw_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sw_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/sw_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=sw
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TA_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ta_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ta_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ta_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ta
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/te_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/te_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/te_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=te
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TH_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/th_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/th_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=th
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tk_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tk_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tk_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=tk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TN_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tn_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tn_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=tn
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tr_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tr_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tr_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tr_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=tr
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\TT_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tt_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/tt_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=tt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\UG_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ug_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ug_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\UK_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/uk_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/uk_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=uk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\UR_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ur_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ur_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/ur_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=ur
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\UZ_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/uz_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/uz_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=uz
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\VI_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/vi_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/vi_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/vi_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=vi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\A894A7544A549888A6CEC31DD0509861\YUE_DICT.RULE
+setlocal
+cd "D:\Programming Projects\WhisperAIAgent\build\include\piper\p\src\piper_phonemize_external-build\e\src\espeak_ng_external-build\dictsource"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/yue_rules" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/yue_list" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/extra/yue_listx" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/dictsource/yue_emoji" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/dictsource/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "ESPEAK_DATA_PATH=D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/src/Release/espeak-ng.exe" --compile=yue
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL-BUILD\CMAKEFILES\389F38FF6CD89E1EB63443DA00EB54DE\DATA.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMMING PROJECTS\WHISPERAIAGENT\BUILD\INCLUDE\PIPER\P\SRC\PIPER_PHONEMIZE_EXTERNAL-BUILD\E\SRC\ESPEAK_NG_EXTERNAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external" "-BD:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build" --check-stamp-file "D:/Programming Projects/WhisperAIAgent/build/include/piper/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
