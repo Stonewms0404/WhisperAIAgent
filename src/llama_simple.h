@@ -4,17 +4,14 @@
 #include <string>
 #include <vector>
 
-#include "piper_tts.h"
-
 
 class Llama_Simple {
 public:
-	Llama_Simple(std::string ai_path, std::string voice_path);
+	Llama_Simple(std::string ai_path);
 	~Llama_Simple();
 	std::string simple_response(int arg_c, char** arg_v);
 
 private:
-	PiperTTS* piper = nullptr;
 	std::string piper_model_location;
 
 	const llama_vocab* vocab = nullptr;

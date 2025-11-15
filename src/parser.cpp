@@ -35,11 +35,7 @@ Parser::Parser() {
 	path /= "models";
 	path /= "gemma-3-4b-it-Q2_K_L.gguf";
 
-	std::filesystem::path p = std::filesystem::current_path().parent_path();
-	p /= "models";
-	p /= "en_US-kathleen-low.onnx";
-
-	llama = new Llama_Simple(path.string(), p.string());
+	llama = new Llama_Simple(path.string());
 }
 
 Parser::~Parser() {

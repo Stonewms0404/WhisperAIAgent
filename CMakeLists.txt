@@ -33,16 +33,6 @@ add_executable(WhisperAIAgent
 # whisper
 add_subdirectory(include/whisper.cpp)
 
-# espeak-ng
-add_subdirectory(include/espeak-ng)
-
-# piper
-set(PIPER_BUILD_ONNXRUNTIME ON CACHE BOOL "" FORCE)
-set(PIPER_FETCH_ONNXRUNTIME ON CACHE BOOL "" FORCE)
-set(PIPER_FETCH_ESPEAK_NG OFF CACHE BOOL "" FORCE)
-set(PIPER_ENABLE_CXX_API ON CACHE BOOL "" FORCE)
-#add_subdirectory(include/piper)
-
 # llama (modern ggml / correct linking)
 set(LLAMA_BLAS OFF CACHE BOOL "" FORCE)
 set(LLAMA_CUDA OFF CACHE BOOL "" FORCE)
@@ -60,51 +50,34 @@ endif()
 target_include_directories(WhisperAIAgent PRIVATE
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/include/SDL2/include
-    ${CMAKE_SOURCE_DIR}/include/espeak-ng/src/libespeak-ng
-    ${CMAKE_SOURCE_DIR}/include/espeak-ng/src/include
     ${SDL2_INCLUDE_DIRS}
-
-    # Piper C++ API
-    ${CMAKE_SOURCE_DIR}/include/piper/src/cpp
-    include/piper/build/p/src/piper_phonemize_external/src
-    
-    # generated piper deps
-    ${PIPER_GENERATED_ONNXRUNTIME_DIR}
-    ${PIPER_GENERATED_PHONEMIZE_DIR}
-
-    # espeak-ng headers
-    ${CMAKE_SOURCE_DIR}/include/espeak-ng/src/include
-    ${CMAKE_SOURCE_DIR}/include/espeak-ng/src/libespeak-ng
 
     # SDL2 headers
     ${CMAKE_SOURCE_DIR}/include/SDL2/include
 )
 
-    target_link_directories(WhisperAIAgent PRIVATE
-        ${CMAKE_SOURCE_DIR}/include/piper/build/pi/lib
-        ${CMAKE_SOURCE_DIR}/include/SDL2/lib/x64
-    )
+target_link_directories(WhisperAIAgent PRIVATE
+    ${CMAKE_SOURCE_DIR}/include/SDL2/lib/x64
+)
 
 # platform specific
 if (WIN32)
     target_link_libraries(WhisperAIAgent PRIVATE
         whisper
         llama
-        espeak-ng
         ggml
         SDL2
         SDL2main
         ole32
         uuid
-        onnxruntime
     )
 elseif(APPLE)
     find_library(COREAUDIO_FRAMEWORK CoreAudio)
     find_library(AUDIOTOOLBOX_FRAMEWORK AudioToolbox)
-    target_link_libraries(WhisperAIAgent PRIVATE whisper llama espeak-ng ggml SDL2 onnxruntime ${COREAUDIO_FRAMEWORK} ${AUDIOTOOLBOX_FRAMEWORK})
+    target_link_libraries(WhisperAIAgent PRIVATE whisper llama ggml SDL2 ${COREAUDIO_FRAMEWORK} ${AUDIOTOOLBOX_FRAMEWORK})
 elseif(UNIX)
     find_package(ALSA REQUIRED)
-    target_link_libraries(WhisperAIAgent PRIVATE whisper llama espeak-ng ggml SDL2 onnxruntime asound)
+    target_link_libraries(WhisperAIAgent PRIVATE whisper llama ggml SDL2 asound)
 endif()
 
 
@@ -132,10 +105,6 @@ add_custom_command(TARGET WhisperAIAgent POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         "${CMAKE_SOURCE_DIR}/include/whisper.cpp/models/ggml-base.bin"
         "${CMAKE_SOURCE_DIR}/build/Release/ggml-base.bin"
-
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        "${CMAKE_SOURCE_DIR}/models/en_US-kathleen-low.onnx"
-        "${CMAKE_SOURCE_DIR}/build/Release/en_US-kathleen-low.onnx"
 
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         "${CMAKE_SOURCE_DIR}/include/llama.cpp/build/bin/Release/llama.dll"

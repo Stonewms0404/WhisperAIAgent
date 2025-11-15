@@ -1,1 +1,0 @@
-D:\Programming Projects\WhisperAIAgent\build\include\espeak-ng\sonic.dir\Release\sonic.lib

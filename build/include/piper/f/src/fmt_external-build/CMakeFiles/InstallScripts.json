@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/Programming Projects/WhisperAIAgent/build/include/piper/f/src/fmt_external-build/cmake_install.cmake",
-		"D:/Programming Projects/WhisperAIAgent/build/include/piper/f/src/fmt_external-build/doc/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

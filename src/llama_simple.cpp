@@ -6,12 +6,9 @@
 
 #include "llama.h"
 #include "llama_simple.h"
-#include "piper_tts.h"
-#include "piper.hpp"
 #include <synchapi.h>
 
-Llama_Simple::Llama_Simple(std::string ai_path, std::string voice_path)
-    : ai_model_path(ai_path), piper_model_location(voice_path) {
+Llama_Simple::Llama_Simple(std::string ai_path) : ai_model_path(ai_path) {
     // load dynamic backends
     ggml_backend_load_all();
     llama_backend_init();
@@ -24,7 +21,7 @@ Llama_Simple::Llama_Simple(std::string ai_path, std::string voice_path)
 
     if (model == NULL) {
         fprintf(stderr, "%s: error: unable to load model\n", __func__);
-        Sleep(5000); Sleep(5000); exit(1);
+        exit(1);
     }
 
     vocab = llama_model_get_vocab(model);
@@ -68,7 +65,6 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
     n_predict = 512;
 
     if (ai_model_path.empty()) {
-        Sleep(5000);
         exit(1);
     }
 
@@ -109,14 +105,14 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
     ctx = llama_init_from_model(model, ctx_params);
     if (!ctx) {
         fprintf(stderr, "failed to create llama_context\n");
-        Sleep(5000); exit(1);
+        exit(1);
     }
 
     // Tokenize prompt into a vector
     int n_actual = llama_tokenize(vocab, prompt.c_str(), prompt.size(), prompt_tokens.data(), n_prompt, true, true);
     if (n_actual != n_prompt) {
         fprintf(stderr, "tokenize mismatch: %d != %d\n", n_actual, n_prompt);
-        Sleep(5000); exit(1);
+        exit(1);
     }
 
     // ----------------------------
@@ -125,7 +121,7 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
     for (auto id : prompt_tokens) {
         char buf[128];
         int n = llama_token_to_piece(vocab, id, buf, sizeof(buf), 0, true);
-        if (n < 0) { fprintf(stderr, "failed to convert token to piece\n"); Sleep(5000); exit(1); }
+        if (n < 0) { fprintf(stderr, "failed to convert token to piece\n"); exit(1); }
         printf("%.*s", n, buf);
     }
     fflush(stdout);
@@ -138,7 +134,7 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
     if (llama_model_has_encoder(model)) {
         if (llama_encode(ctx, batch)) {
             fprintf(stderr, "failed to encode prompt\n");
-            Sleep(5000); exit(1);
+            exit(1);
         }
         llama_token decoder_start_token_id = llama_model_decoder_start_token(model);
         if (decoder_start_token_id == LLAMA_TOKEN_NULL)
@@ -154,10 +150,8 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
     // ----------------------------
     // Main generation loop
     // ----------------------------
-    std::cout << "\nStarting printing reply:\n";
 
     std::string ret_string;
-    std::string sentence_buffer;
     int n_tokens_generated = 0;
 
     while (n_tokens_generated < n_predict) {
@@ -172,31 +166,10 @@ std::string Llama_Simple::simple_response(int arg_c, char** arg_v) {
 
         std::string token(buf, n);
         ret_string += token;
-        sentence_buffer += token;
-
-        // Detect end of sentence for TTS
-        if (token.find('.') != std::string::npos ||
-            token.find('!') != std::string::npos ||
-            token.find('?') != std::string::npos ||
-            token.find('\n') != std::string::npos) {
-
-            if (!sentence_buffer.empty()) {
-                piper->text_to_speech(sentence_buffer, "out.wav", piper_model_location);
-                sentence_buffer.clear();
-
-                std::this_thread::sleep_for(std::chrono::milliseconds(50));
-            }
-        }
 
         // Next token
         batch = llama_batch_get_one(&new_token_id, 1);
         n_tokens_generated++;
-    }
-
-    // after loop flush remainder:
-    if (!sentence_buffer.empty()) {
-        piper->text_to_speech(sentence_buffer, "out.wav", piper_model_location);
-        sentence_buffer.clear();
     }
 
     std::cout << "\nReply finished\n";

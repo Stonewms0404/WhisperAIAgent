@@ -1,1 +1,0 @@
-D:/Programming Projects/WhisperAIAgent/build/include/whisper.cpp/src/whisper.dir/MinSizeRel/whisper.obj
